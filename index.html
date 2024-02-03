@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zeyad Usamaa</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+         <label class="burger-menu" for="menu">
+          <div class="burger-menu_bar"></div>
+          <div class="burger-menu_bar"></div>
+          <div class="burger-menu_bar"></div>
+         </label> 
+        <input id="menu" class="burger-menu__checkbox" type="checkbox"/>
+        <nav class="navigtion">
+          <ul class="navigtion__list">
+            <li><a href="#bio" class="navigtion__link navigtion__bio">Bio</a></li>
+            <li><a href="#skills" class="navigtion__link navigtion__skills">Skills</a></li>
+            <li><a href="#media" class="navigtion__link navigtion__media">Media</a></li>
+            <li><a href="#content_1" class="navigtion__link navigtion__content_1">Projects</a></li>
+            <li><a href="#clients" class="navigtion__link navigtion__clients">My Clients</a></li>
+            <li><a href="#contact" class="navigtion__link navigtion__contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">Hi There,I'm A Software Engineer</h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Zeyad Ussama</span>, A Student
+            Programmer at
+            <a href="https://almdrasa.com/" class="bio__almadrasa"
+              >ALmadrasa Platform.com</a
+            >
+            and A Student at
+            <span class="bio__university">Ibn Khaldun University</span>
+            Also Teaching Quran and Arabic language at Mahad Rahamanya.Alislamy
+            <a
+              href="https://www.linkedin.com/in/zeyad-bin-ossama-%D8%A8%D9%86-%D8%A7%D8%B3%D8%A7%D9%85%D9%87-02a43027b/"
+              class="bio__linkedin"
+              >Linkedin</a
+            >
+            <a href="https://twitter.com/ZeyadOssam580" class="bio__twitter"
+              >Twitter</a
+            >
+            <a href="https://github.com/ZeyadBinOssama34" class="bio__github"
+              >Github</a
+            >
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="#" class="bio__links find-out-link"
+            >Download CV <span class="bio_arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img class="bio__pic" src="images/my_photo.png"  alt="image of Zeyad Ussama">
+        </div>
+       
+      </section>
+
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2-heading">skills</h2>
+          <ul class="skill__list">
+            <li class="skills__item">
+              <h2 class="skills_title">HTML</h2>
+              <span class="skills_years">8 years</span>
+            </li>
+            <li class="skills__item">
+              <h2 class="skills_title">CSS</h2>
+              <span class="skills_years">8 years</span>
+            </li>
+            <li class="skills__item">
+              <h2 class="skills_title">Javascript</h2>
+              <span class="skills_years">8 years</span>
+            </li>
+            <li class="skills__item">
+              <h2 class="skills_title">React</h2>
+              <span class="skills_years">8 years</span>
+            </li>
+            <li class="skills__item">
+              <h2 class="skills_title">Redux</h2>
+              <span class="skills_years">8 years</span>
+            </li>
+            <li class="skills__item">
+              <h2 class="skills_title">React testing library</h2>
+              <span class="skills_years">8 years</span>
+            </li>
+          </ul>
+      </section>
+      
+      <section id="media" class="media section">
+        <!-- <video class="media__vedio" src="https://www.youtube.com/watch?v=HVHbOiNVL0I.mp4"></video> -->
+        <iframe class="media___video"  src="https://www.youtube.com/embed/HVHbOiNVL0I" ></iframe>
+      </section>
+      <section id="content_1" class="content_1">
+        <h2 class="h2_heading2">MY FEATURED <br> PROJECTS</h2>
+        
+        <div class="project_main">
+          <div class="image-container">
+            <img class="image_" src="images/Untitled.png" alt="">
+          </div>
+         
+          <div class="project_data">
+            <h3 class="h3_heading"> Islam <br> Website</h3>
+            <p class="description">"Welcome to my Islam website, a dedicated platform where you can explore the rich and diverse world of Islam. Our website aims to provide valuable insights into the teachings, practices, and history of Islam,
+              fostering understanding and appreciation for this global faith.</p>
+          </div>
+        
+      </section>
+      <section id="clients" class="clients section">
+        <h2 class="h3_heading3"> WHAT MY  <br> CLIENTS SAYS</h2>
+        <div class="clients_opinon">
+          <div class="clients_wrapper">
+            <p class="clients__opinon">Working with Zeyad Ossama has been an absolute pleasure. Their commitment to delivering high-quality and visually appealing user interfaces is evident in every project. They have a keen eye for design, translating our ideas seamlessly into interactive and responsive web solutions. The attention to detail and dedication
+               to meeting deadlines have made them an invaluable asset to our team.</p>
+            <p class="clients__opinon">We couldn't be more thrilled with the frontend development work delivered by our dedicated developer. Their proficiency in HTML, CSS, and JavaScript, coupled with a deep understanding of user experience principles, has resulted in websites
+               that <br> not only  meet but exceed our clients' expectations.</p>
+            <p class="clients__opinon"> Zeyad Ossama has been instrumental in bringing our digital vision to life. Their technical prowess and creative flair have transformed
+               our concepts into beautifully crafted and responsive websites. </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__description">
+            Feel free to contact me,i perfer to talk over email thaks for your visiting my site. 
+          </p>
+          <a class="contact__email" href="mailto:ziadashry765@gmail.com">ziadashry765@gmail.com</a>
+          <div class="contact__socials">
+            <a href="" class="contact__social">
+
+            </a>
+            <a href="" class="contact__social">
+              <img src="images/facebook.svg" alt="icon facebook">
+            </a>
+            <a href="https://www.linkedin.com/feed/" class="contact__social">
+              <img src="images/LinkedIn.svg" alt="icon linkedin">
+            </a>
+            <a href="https://twitter.com/home" class="contact__social">
+              <img src="images/twitter.svg" alt="icon twitter">
+            </a>
+            <a href="https://github.com/ZeyadBinOssama34" class="contact__social">
+              <img src="images/github.svg" alt="icon github">
+            </a>
+            
+          </div>
+        </div>
+
+
+        <div class="contact__formContent">
+          <h2 class="h_formContent"> LET'S WORK <br> TOGETHER  </h2>
+
+          <form action="results.html">
+              <div class="contact_inputs">
+                <input class="contact_input" type="text" placeholder="Full Name" name="full name" required>
+                <input class="contact_input" type="tel"  placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" name="phone" required> 
+                <textarea class="contact_input contact_textarea" name="description" id="description" rows="1"  placeholder="Your  Message"  required></textarea>
+              
+                <input class="contact_button" type="submit" value="Send Message">
+            
+              </div>
+          </form>
+               
+        </div>
+
+      </section>
+      <footer class="footer">© 2024 by Zeyad Ossama</footer>
+    </div>
+  </body>
+</html>
